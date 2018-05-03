@@ -5,7 +5,7 @@ describe('User should be able to login into application with credentials', funct
   element(by.id("Username")).sendKeys("rakesh");
   element(by.id("Password")).sendKeys("rakesh");
   element(by.buttonText("Sign In")).click();
- browser.driver.sleep(40000);  
+ browser.driver.sleep(50000);  
   });
  
 });
