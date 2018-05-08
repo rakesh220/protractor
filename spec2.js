@@ -5,7 +5,8 @@ describe('User should not be able to login into application with wrong credentia
     element(by.id("Username")).sendKeys("rakesh22");
     element(by.id("Password")).sendKeys("rakesh");
     element(by.buttonText("Sign In")).click();
-   browser.driver.sleep(40000);  
+   browser.driver.sleep(40000);
+browser.driver.sleep(20000);
 //new file add
     });
    
