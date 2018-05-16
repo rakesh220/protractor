@@ -2,7 +2,7 @@ describe('As a user i should be able to change password and set a new one.', fun
   
     it('change password', function() {
       browser.get('https://chatapp.aadhya-analytics.com:4201');
-      browser.waitForAngularEnabled(false) 
+      browser.waitForAngularEnabled(false);
     element(by.xpath('//*[@id="Username"]')).sendKeys("rakesh");
     element(by.id("Password")).sendKeys("rakesh");
    

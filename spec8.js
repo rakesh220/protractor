@@ -1,4 +1,4 @@
-describe('As a user i should be able to change password and set a new one of new password and confirm password are different', function() {
+describe('As a user i should not be able to change password and set a new one of new password and confirm password are different', function() {
   
     it('login', function() {
       browser.get('https://chatapp.aadhya-analytics.com:4201');

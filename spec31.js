@@ -2,7 +2,7 @@ describe('User will get organization members user presence with the different re
   
     it('user status red color ', function() {
       browser.get('https://chatapp.aadhya-analytics.com:4201');
-      browser.waitForAngularEnabled(false) 
+      browser.waitForAngularEnabled(false)
     element(by.xpath('//*[@id="Username"]')).sendKeys("raheem");
     element(by.id("Password")).sendKeys("raheem");
    

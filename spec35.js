@@ -9,31 +9,15 @@ describe('View Members of Organization groups', function() {
    
     element(by.buttonText("Sign In")).click();
     browser.driver.sleep(50000);
-    element(by.xpath('//*[@id="leftscroll"]/ul[2]/li[2]/a')).click();
+    element(by.xpath('//*')).click();
     
 
 browser.driver.sleep(40000); 
-element(by.xpath('/html/body/aadhya-root/app-chat-page/div/div/div/div/div/aadhya-topbar-innerleft/div/div/div[1]/div/div/div[1]/a/img')).click();
+element(by.xpath('/html/body/aadhya-root/app-chat--topbar-innerleft/div/div/div[1]/div/div/div[1]/a/img')).click();
 browser.driver.sleep(40000);
    element(by.xpath('/html/body/aadhya-root/app-chat-page/div/div/div/div/div/aadhya-group-right-panel/div/ul/li[3]/a/i')).click();
      browser.driver.sleep(40000);
     
     },1000000);
-//it("ddsdsdsd",function()
-//{
-    //element(by.xpath('//*[@id="leftscroll"]/ul[2]/li[2]/a')).click();
-    
 
-//browser.driver.sleep(50000); 
-
-//}
-//);
-    
-  // it("aaa",function(){
-    //element(by.name("messageTone")).$('[value="messageToneName3"]').click();
-  //  element(by.xpath('/html/body/aadhya-root/app-chat-page/div/div/div/div/div/aadhya-topbar-innerleft/div/div/div[1]/div/div/div[1]/a/img')).click();
-//browser.driver.sleep(50000);
-   //element(by.xpath('/html/body/aadhya-root/app-chat-page/div/div/div/div/div/aadhya-group-right-panel/div/ul/li[3]/a/i')).click();
-     //browser.driver.sleep(50000);  
-      // });
     });

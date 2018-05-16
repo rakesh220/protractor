@@ -4,7 +4,7 @@ describe('User can set DNser set DND start and end n the set time user ', functi
       browser.get('https://chatapp.aadhya-analytics.com:4201');
       browser.waitForAngularEnabled(false) 
     element(by.xpath('//*[@id="Username"]')).sendKeys("rakesh");
-    element(by.id("Password")).sendKeys("rakesh227");
+    element(by.id("Password")).sendKeys("rakesh");
    
    // element(by.xpath('//*[@id="loginform"]/div[3]/button')).click();
     element(by.buttonText("Sign In")).click();
@@ -15,7 +15,7 @@ it("ddsdsdsd",function()
     element(by.xpath('//*[@id="navbar"]/ul/li[6]/a')).click();
     
 
-//browser.driver.sleep(50000); 
+browser.driver.sleep(50000); 
 
    // element(by.name("messageTone")).$('[value="messageToneName3"]').click();
     element(by.xpath('//*[@id="dispableTime"]')).click();
